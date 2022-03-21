@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Invoice Creator</title>
+   <link rel="stylesheet" href="styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+   <script src="https://unpkg.com/phosphor-icons"></script>
+</head>
+
+<body>
+
+   <main class="container | flow">
+      <header>
+
+         <h1>Invoice Creator</h1>
+
+         <p>Thanks for choosing Purrfect Paws!</p>
+         <i class="ph-cat"></i>
+      </header>
+      <section class="services flow">
+         <h2 class="lineTitle">Available Services</h2>
+         <ul>
+            <li class="priceList">
+               <button id="serviceVet">Veterinary: <p class="price">50</p></button>
+            </li>
+            <li class="priceList">
+               <button id="servicePetSitting">Petsitting: <p class="price">30</p></button>
+            </li>
+            <li class="priceList">
+               <button id="serviceGroom">Grooming: <p class="price">15</p></button>
+            </li>
+            <li class="priceList">
+               <button id="serviceVaccine">Vaccination: <p class="price">35</p></button>
+            </li>
+            <li class="priceList">
+               <button id="serviceTraining">Training: <p class="price">40</p></button>
+            </li>
+            <li class="priceList">
+               <button id="serviceNeuter">Neutering: <p class="price">75</p></button>
+            </li>
+         </ul>
+      </section>
+
+      <section class="invoiceWrapper | flow">
+         <h2 class="lineTitle">Invoice</h2>
+         <!-- <div class="invoiceItems border">
+            <p>Your order will appear here!</p>
+            <span class="price">00</span>
+         </div> -->
+         <div id="addServices"></div>
+         </div>
+      </section>
+
+      <section class="payment">
+         <div class="notes | left">
+            <h2>Notes:</h2>
+            <p><i class="ph-asterisk"></i> We accept cash, credit cards or Paypal.</p>
+            <p><i class="ph-asterisk"></i> Found out any problems? <a href="x">Contact us!</a></p>
+         </div>
+         <div class="right">
+            <h2>Total Price:</h2>
+            <span id="totalPrice" class="price">00</span>
+         </div>
+      </section>
+      <button id="sendInvoice">Send Invoice</button>
+   </main>
+   <footer class="flow">
+      Made with <i class="ph-heart"></i> by Line-em</footer>
+   <script src="./main.js"></script>
+</body>
+
+</html>
