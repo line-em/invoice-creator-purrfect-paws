@@ -14,15 +14,18 @@ If you encounter any problems, or have any feedback for me, I'd love to hear abo
 ![Screenshot](./images/screenshot.png)
 ![Screenshot](./images/screenshot2.png)
 
-**This project is still incomplete.**
+**This project is finally complete!**
 
-The most challenging aspect of this project so far is including the **remove buttons**, after the items have been added to the Invoice. I'm studying a solution, however, it will take a little time.
+The most challenging aspect of this project so far was including the **remove buttons** and making it properly functional in manipulating the array. I'm happy to say that it is now working as intended! 🥳✨
+
+Of course, if you do find any bugs, errors, or any suggestions at all, please let me know! I'd love to hear from you! 😊
 
 ## To-Do
 
-- [ ] Include a functional Remove button
-- [ ] Generate a some feedback after clicling on Send Invoice.
+-   [x] Include a functional Remove button
+-   [ ] Generate a some feedback after clicling on Send Invoice.
 
 ## Changelog
 
-- 1.0 - Initial commit.
+-   1.0 - Initial commit.
+-   2.0 - Added the Remove button.
